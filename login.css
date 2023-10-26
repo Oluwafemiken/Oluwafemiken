@@ -1,0 +1,51 @@
+nav{
+    background-color:#aafff4ac;
+    border-style:ridge;
+    border-color:#2b2eff;
+    border-radius: 5px;
+    padding: 15px 0px 0px 0px;
+    min-height: 50px;
+}
+
+nav ul{
+    list-style-type:none;
+    padding:5px 0px 5px 30px;
+    margin:0;
+    min-height: 30px;
+    
+}
+
+nav li{
+    display: inline;
+    padding: 5px;
+}
+nav a{
+    font-size:20px;
+    text-decoration:none;
+    color:#1523ff;
+}
+nav a span.location{
+    text-decoration-line:underline overline;
+    text-decoration-style:wavy;
+}
+
+
+body{
+    background: lightblue;
+}
+
+legend{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    height: 1cm;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color:blue;
+    border:none;
+    color:white;
+}
